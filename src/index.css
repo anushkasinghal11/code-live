@@ -10,7 +10,13 @@ body {
     height: 50vh;
     display: flex;
   }
-  
+  @media screen and (max-width:550px){
+    .section{
+        display:flex;
+        flex-direction: column;
+        height:100vh;
+    }
+}
   .editor-container {
     flex-grow: 1;
     flex-basis: 0;
