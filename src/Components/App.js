@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import Editor from './Editor';
 import useLocalStorage from './useLocalStorage';
+import Footer from "./Footer";
 
 function App() {
   const [html, setHtml] = useLocalStorage('html', '')
@@ -55,7 +56,7 @@ function App() {
 
     />
   </div>
-
+    <Footer/>
   </div>
   );
 }

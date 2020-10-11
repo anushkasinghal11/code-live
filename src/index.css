@@ -7,14 +7,14 @@ body {
   }
   
   .section {
-    height: 50vh;
+    height: 47vh;
     display: flex;
   }
   @media screen and (max-width:550px){
     .section{
         display:flex;
         flex-direction: column;
-        height:100vh;
+        height:80vh;
     }
 }
   .editor-container {
@@ -62,4 +62,11 @@ body {
     border-bottom-right-radius: .5rem;
     border-bottom-left-radius: .5rem;
     overflow: hidden;
+  }
+  .footer{
+    background-color: rgb(189, 189, 189);
+  }
+  .footer-text{
+    text-align: center;
+    font-size:1.5rem;
   }
